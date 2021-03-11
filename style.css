@@ -5,15 +5,60 @@ box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
 
+
+}
+
+.inner-ul{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width:110px;
+    text-align: right;
+
+}
+ul li:hover ul{
+    display: flex;
+}
+
+.odot{
+    
+    right: 55px;
+
+}
+.hativot{
+
+right: 130px;}
+.corp{
+    right: 217px;
+    width: 150px;
+}
+.invest{
+    right: 354px;
+}
+.station{
+    right:482px
+
+}
+.carrier{
+    right: 600px;
+}
+.press{
+ right:684px
+}
+
+ul > li{
+    background: linear-gradient(to bottom, #8a8c8f 0%, #aeadad 100%);
+padding-right: 3px;
 }
 header{
     background: linear-gradient(to bottom, #8a8c8f 0%, #aeadad 100%);
     height: 105px;
-    margin: none
+    margin: none;
+    width:1300px;
 }
 img:first-of-type{
-    position: absolute;
-    right: 170px;
+    position: relative;
+    left: 950px;
     top: 34px;
 
 }
@@ -36,12 +81,19 @@ fieldset{
     
 
 }
+li:hover{
+    color: rgb(58, 58, 143);
+    text-decoration: underline;
+    cursor: pointer;
+}
 li {
     color: whitesmoke;
     border-right: outset;
-    font-size: 16px;
-    height: 18px;
+    font-size: 15px;
+    height: 22px;
     padding-right: 17px;
+    padding: 0px 17px 4px 0px;
+    
 
 
 
