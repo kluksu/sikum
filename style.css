@@ -85,7 +85,7 @@ fieldset{
     
 
 }
-li:hover{
+li:hover, fieldset span:nth-of-type(2):hover, .text-bottom:hover, span:hover{
     color: rgb(58, 58, 143);
     text-decoration: underline;
     cursor: pointer;
@@ -137,13 +137,19 @@ span{
     
 }
 main{
-    margin-top: 30px;
+    width:900px;
+    margin:auto;
+    margin-top: -85px;
+    
     
 }
 
 main  div{
     margin:auto;
     width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }   
 
 main  div div{
@@ -151,8 +157,10 @@ main  div div{
     display: flex;
 }
 main div div  div{
-margin: 9px;
-width: 287px;
+margin: auto;
+width: 291px;
+
+
 
 }
 .largepic{
@@ -161,29 +169,24 @@ border-radius: 0px 0px 20px 0px;}
     width: 288px;
     height: 218px;
     background-color: rgb(240, 240, 242);
-    display: flex;
-    flex-direction: column;
     border-radius: 0 20px 0 0;
     border-top: outset 0.1px rgba(211, 204, 204, 0.774);
     border-right:  outset 0.01px  rgba(211, 204, 204, 0.774);
     border-left:  outset 0.1px rgba(211, 204, 204, 0.774);
+   
 
     
 
 
 }
-.smallpic > div:first-of-type {
+.smallpic > div:nth-of-type(1) {
     color: rgb(88, 87, 87);
     border-bottom: outset rgba(255, 248, 248, 0.295) ;
 direction: rtl;
 width: 260px;
 font-size: 15px;
 }
-.smallpic div:last-of-type{
- 
-    width: 240px;
-    padding-left: 20px;
-}
+
 
 
 
@@ -192,11 +195,13 @@ font-size: 15px;
     height: 110px;
     margin: auto;
     margin-bottom: 0px;
+    margin-top: 5px;
 }
 main  ul{
     display: flex;
     flex-direction: column;
-text-align: right;}
+text-align: right;
+margin-top: -150px;}
 main ul li {
     background-color: transparent;
     color: rgb(88,87,87);
@@ -209,3 +214,23 @@ main ul li {
     
     text-decoration: underline;
 }
+p{
+position:relative;  
+    font-size: 12px;
+    color: whitesmoke;
+    font-weight: 100;
+    direction: rtl;
+    width:248px;
+    height: 96px;
+    background-color: rgba(128, 128, 128, 0.884);
+    border-radius: 0px 0px 20px 0px;
+    padding:  10px 7px 0 0;
+    top: 358px;   
+left:37px;
+}
+
+p span{
+    padding-right: 160px;
+    font-weight: 100;
+}
+
