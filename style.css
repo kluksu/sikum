@@ -138,6 +138,7 @@ span{
 }
 main{
     margin-top: 30px;
+    
 }
 
 main  div{
@@ -146,26 +147,26 @@ main  div{
 }   
 
 main  div div{
-    width: 900px;
+    width: 1000px;
     display: flex;
 }
 main div div  div{
-margin: 7px;
-width: 293px;
+margin: 9px;
+width: 287px;
 
 }
 .largepic{
 border-radius: 0px 0px 20px 0px;}
 .smallpic{
-    width: 293px;
+    width: 288px;
     height: 218px;
     background-color: rgb(240, 240, 242);
     display: flex;
     flex-direction: column;
     border-radius: 0 20px 0 0;
-    border-top: inset rgba(252, 252, 252, 0.774);
-    border-right: inset rgba(252, 252, 252, 0.774);
-    border-left: inset rgba(252, 252, 252, 0.774);
+    border-top: outset 0.1px rgba(211, 204, 204, 0.774);
+    border-right:  outset 0.01px  rgba(211, 204, 204, 0.774);
+    border-left:  outset 0.1px rgba(211, 204, 204, 0.774);
 
     
 
@@ -175,14 +176,22 @@ border-radius: 0px 0px 20px 0px;}
     color: rgb(88, 87, 87);
     border-bottom: outset rgba(255, 248, 248, 0.295) ;
 direction: rtl;
-padding-right: 16px;
-width: 280px;
+width: 260px;
+font-size: 15px;
 }
+.smallpic div:last-of-type{
+ 
+    width: 240px;
+    padding-left: 20px;
+}
+
 
 
 .smallpic > img{
     width: 250px;
     height: 110px;
+    margin: auto;
+    margin-bottom: 0px;
 }
 main  ul{
     display: flex;
@@ -192,4 +201,11 @@ main ul li {
     background-color: transparent;
     color: rgb(88,87,87);
     border: none;
+}
+.text-bottom{
+    color: #72716d;
+    font-weight: 100;
+    font-size: 14px;
+    
+    text-decoration: underline;
 }
