@@ -60,11 +60,13 @@
      width: 130px;
     }
     
-    nav > ul > li{
+    nav > ul > li {
     padding-right: 20px;
     border-right: solid 0.1px rgb(194, 192, 192);
-    border-bottom: none;
     
+    }
+    nav > ul > li ul li {
+        border-bottom:solid rgb(150, 146, 146);
     }
     header{
         background: linear-gradient(to bottom, #8a8c8f 0%, #aeadad 100%);
@@ -102,6 +104,7 @@
         cursor: pointer;
     }
     li {
+        background-color: rgb(161, 161, 161);
     
     
         color: whitesmoke;
