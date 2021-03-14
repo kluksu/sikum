@@ -97,7 +97,6 @@ li:hover, fieldset span:nth-of-type(2):hover, .text-bottom:hover, span:hover{
     cursor: pointer;
 }
 li {
-    background-color: rgb(161, 161, 161);
 
 
     color: whitesmoke;
@@ -105,7 +104,6 @@ li {
     height: 22px;
     padding-right: 17px;
     padding: 0px 17px 4px 0px;
-    border-bottom: outset rgb(235, 226, 226);
     
 
 
@@ -264,7 +262,7 @@ padding-top: 14px;
 
 }
 footer ul li {
-    padding-right: 4px;
+    padding-right: 7px;
     margin-left: 0px;
     border-right: solid;
     background-color: transparent;
@@ -290,4 +288,10 @@ footer li > img{
     margin-bottom: -1px;
     padding-left: 15px;
     padding-right: 5px;
+}
+.read > span{
+    padding-right: 40px;
+}
+.lower{
+    margin-top:4px
 }
