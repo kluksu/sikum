@@ -201,6 +201,7 @@ font-size: 15px;
 
 
 
+
 .smallpic > img{
     width: 250px;
     height: 110px;
@@ -307,4 +308,20 @@ footer ul li  a {
 }
 footer ul li  a:hover{
     color: rgb(55, 55, 107);
+}
+.disappear{
+    display: none;
+
+}
+section .smallpic:first-of-type{
+    position:absolute ;
+    top: 520px;
+    left: 488px;
+}
+section .smallpic:last-of-type{
+
+
+    position:absolute ;
+    top: 520px;
+    left: 488px;
 }
