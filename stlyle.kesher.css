@@ -147,6 +147,9 @@
         
         
     }
+    main > div:first-of-type{
+        margin-top: -50px;
+    }
 
     
     main > div:last-of-type{
@@ -164,7 +167,7 @@
         margin-top: 0px;
     }
     p{
-        color: black;
+        color: #6d6d6d;
         margin: auto;
         text-align: right;
         width: 439px;   
@@ -187,13 +190,12 @@
     .smallpic{
         width: 288px;
         height: 168px;
-        background-color: rgb(240, 240, 242);
-        border-radius: 0 20px 0 0;
-        border-top: outset 0.1px rgba(211, 204, 204, 0.774);
+        background: linear-gradient(to bottom, #f5f5f5 60%, #e3e3e3 92%);        border-top: outset 0.1px rgba(211, 204, 204, 0.774);
         border-right:  outset 0.01px  rgba(211, 204, 204, 0.774);
         border-left:  outset 0.1px rgba(211, 204, 204, 0.774);
         margin: auto;
-        margin-top: 38px;       
+        margin-top: 38px;
+        border-radius: 0 20px 0 0;       
     
         
     
@@ -208,7 +210,7 @@
         font-weight: 100;
         width: 270px;
         border:none;
-        margin: 0px;
+        margin: auto;
         padding-top: 0px;
     }
     .head-p{
@@ -260,3 +262,105 @@
     font-size: 14px;
     
     }
+    .smallpic:last-of-type p{
+        color: black;
+    }
+    .smallpic:nth-of-type(3) div:first-of-type{
+        color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 17px;
+}
+
+
+.smallpic:nth-of-type(3) div div {
+
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    width: 335px;
+}
+    
+    .smallpic .text-p{
+        direction: rtl;
+    }
+    main form{
+        margin-left: 120px;
+        direction: rtl;
+        width:261px;
+        
+    }
+    fieldset > p{
+        margin-left: 250px;
+    }
+    label.text-p{
+        padding-right: 36px;
+    }
+    main input{
+        width: 170px;
+        margin-top:5px ;
+    }
+    fieldset .text-p{
+width: 370px;   
+padding-right: 12px; }
+main form div:first-of-type input{
+    margin-right: 34px;
+}
+main form div:nth-of-type(2) input{
+    margin-right:20px;
+}
+main form div:nth-of-type(3) input{
+    margin-right:50px;
+}
+main form div:nth-of-type(4) input{
+    margin-right:45px;
+}
+main form div textarea{
+    margin-right:45px;
+    margin-top:5px ;
+
+}
+.smallpic:last-of-type p div{
+    margin-right: 50px;
+}
+.smallpic:last-of-type p{
+    width: 419px;
+
+}
+main > div:first-of-type div:first-of-type{
+    height: 38px;
+    width: 136px;
+    background: linear-gradient(to bottom, #f5f5f5 60%, #e3e3e3 92%);     margin-left: 780px;
+    text-align: right;
+    padding-top: 12px;
+    
+
+}
+main > div:first-of-type div:last-of-type{
+    height: 38px;
+    width: 136px;
+    margin-left: 600px;
+    text-align: right;
+    padding-top: 12px;
+    position: relative;
+    top: -52px;
+    
+
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: linear-gradient(to bottom, #8ab5ff 8%, #3e2ad5 92%);
+color: white;
+
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+ .blue{
+    color: blue;
+}
+
+
