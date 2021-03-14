@@ -63,7 +63,7 @@
     nav > ul > li {
     padding-right: 20px;
     border-right: solid 0.1px rgb(194, 192, 192);
-    
+    background-color: transparent;
     }
     nav > ul > li ul li {
         border-bottom:solid rgb(150, 146, 146);
